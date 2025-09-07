@@ -60,14 +60,15 @@ The backend API repository can be found here:
 ### Backend Issues
 - No rate limiting implemented; potential risk of overloading APIs.
 - JWT tokens stored in localStorage, which can expose to XSS attacks; using httpOnly cookies is recommended for better security.
-- Used 384-dimensional embeddings for performance and efficiency, though this offers less semantic detail than higher-dimensional (e.g., 1536) vectors.
-- Chose a lightweight embedding model for faster responses and lower resource use, at the cost of some accuracy for complex queries.
-- Only titles are embedded-adding descriptions and adopting more robust models could further improve search quality, but were omitted for efficiency and input size concerns.
+- Query search or filter based on tag not implemented while viewing a shareable link (brain) of other person as of now.
 
+  
 ### General
 - Error handling and user feedback need enhancement across features.
 - The share feature is basic and could benefit from improved privacy and control.
-- Query search or filter based on tag not implemented while viewing a shareable link (brain) of other person as of now.
+- Used 384-dimensional embeddings for performance and efficiency, though this offers less semantic detail than higher-dimensional (e.g., 1536) vectors.
+- Chose a lightweight embedding model for faster responses and lower resource use, at the cost of some accuracy for complex queries.
+- Only titles (youtube + tutle given by user) are embedded - adding youtube videors descriptions and adopting more robust models could further improve search quality, but were omitted for efficiency and input size concerns.
 
 ---
 
