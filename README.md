@@ -1,5 +1,6 @@
-```markdown
 # 2nd Brain Frontend
+<img width="1919" height="926" alt="image_2025-09-07_11-12-47" src="https://github.com/user-attachments/assets/6f18bde7-1cee-4d02-b2af-2e7aeb2cdb60" />
+
 
 ## Backend Repo
 The backend API repository can be found here:  
@@ -10,27 +11,40 @@ The backend API repository can be found here:
 ## Features & Screenshots
 
 - **Landing Page**  
-  ![Landing Page Screenshot](path/to/landing-page-image.png)
+  <img width="1919" height="919" alt="image_2025-09-07_11-15-05" src="https://github.com/user-attachments/assets/b1a95fd5-6f72-41f6-b654-39204f091e89" />
+
 
 - **Login & Authentication (JWT)**  
   Secure login and signup flow using JWT tokens.  
-  ![Login Screenshot](path/to/login-image.png)
+  <img width="1919" height="938" alt="image_2025-09-07_11-18-16" src="https://github.com/user-attachments/assets/4e94fda0-57c2-4508-afb9-226848283ce1" />
+
 
 - **Fetched Content Display**  
   Paginated, tag-filtered, and semantic search result display.  
-  ![Content Display Screenshot](path/to/content-display-image.png)
+  <img width="1919" height="926" alt="image_2025-09-07_11-12-47" src="https://github.com/user-attachments/assets/ac18379d-e4f6-4ec8-87bf-fc380d8037bf" />
+
 
 - **Add Content Modal**  
   Modal form for adding YouTube or video links with tags.  
-  ![Add Content Screenshot](path/to/add-content-image.png)
+  <img width="1919" height="931" alt="image_2025-09-07_11-13-40" src="https://github.com/user-attachments/assets/bc67155b-30ef-4e89-b1a6-da4fa638f188" />
+
 
 - **Sharing Your Brain**  
   Toggle sharing on/off with a generated sharing link.  
-  ![Sharing Screenshot](path/to/sharing-image.png)
+  <img width="1918" height="934" alt="image_2025-09-07_11-14-07" src="https://github.com/user-attachments/assets/c84605b8-90c1-4a3c-9259-738aa0f93a52" />
+
+- **Accesing other's brain through shareable link**  
+  Accesing (Read-Only) Other person's brain through shareable link.
+  <img width="1908" height="926" alt="image_2025-09-07_11-14-38" src="https://github.com/user-attachments/assets/f10cb823-ecc2-4eeb-9c53-04276c84b6c9" />
+
 
 - **Semantic Search Output**  
   Query results based on vector embeddings similarity.  
-  ![Semantic Search Screenshot](path/to/search-output-image.png)
+  <img width="1919" height="596" alt="image_2025-09-07_11-19-33" src="https://github.com/user-attachments/assets/c7a2dc3c-eeb3-4bf4-b907-755a9a6264d0" />
+
+- **Tag based Filtering**  
+  Filter links based on the tag given to them.
+  <img width="1919" height="592" alt="image_2025-09-07_12-47-57" src="https://github.com/user-attachments/assets/d48a4912-51c6-4cf0-8aa3-ef3e09fb935a" />
 
 ---
 
@@ -54,7 +68,7 @@ The backend API repository can be found here:
 
 1. Clone the frontend repository:  
    ```
-   git clone <your-frontend-repo-url>
+   git clone https://github.com/Varun-4711/second-brain-app-frontend
    cd frontend
    ```
 
@@ -90,7 +104,3 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 ---
 
-This README provides a thorough overview of your project, visually illustrates key flows, highlights limitations, and guides users and developers on setup and contributions.
-
-If you want help generating the actual README file with embedded screenshots or more details, feel free to ask!
-```
