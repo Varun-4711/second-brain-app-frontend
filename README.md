@@ -1,68 +1,96 @@
-2nd Brain Frontend
-Backend Repo
-Link to backend API repo: [Insert your backend repo URL here]
+```markdown
+# 2nd Brain Frontend
 
-Features & Screenshots
-Landing Page
-(Screenshot)
+## Backend Repo
+The backend API repository can be found here:  
+[https://github.com/Varun-4711/second-brain-app-advanced]
 
-Login & Authentication (JWT)
+---
 
-Secure login/signup flow using JWT tokens.
-(Screenshot)
+## Features & Screenshots
 
-Fetched Content Display
+- **Landing Page**  
+  ![Landing Page Screenshot](path/to/landing-page-image.png)
 
-Shows paginated, tag-filtered, and semantic search results.
-(Screenshot)
+- **Login & Authentication (JWT)**  
+  Secure login and signup flow using JWT tokens.  
+  ![Login Screenshot](path/to/login-image.png)
 
-Add Content Modal
+- **Fetched Content Display**  
+  Paginated, tag-filtered, and semantic search result display.  
+  ![Content Display Screenshot](path/to/content-display-image.png)
 
-Add YouTube/video links with tags via modal form.
-(Screenshot)
+- **Add Content Modal**  
+  Modal form for adding YouTube or video links with tags.  
+  ![Add Content Screenshot](path/to/add-content-image.png)
 
-Sharing Your Brain
+- **Sharing Your Brain**  
+  Toggle sharing on/off with a generated sharing link.  
+  ![Sharing Screenshot](path/to/sharing-image.png)
 
-Toggle to share; generates shareable link.
-(Screenshot)
+- **Semantic Search Output**  
+  Query results based on vector embeddings similarity.  
+  ![Semantic Search Screenshot](path/to/search-output-image.png)
 
-Semantic Search Output
+---
 
-Query results ranked by embedding similarity.
-(Screenshot)
+## Known Limitations
 
-Known Limitations
-Frontend Issues
+### Frontend Issues
+- Component optimizations needed for better performance and scalability.
+- UI responsiveness and accessibility can be improved.
 
-Components need optimization for performance and scalability.
+### Backend Issues
+- No rate limiting implemented; potential risk of overloading APIs.
+- JWT tokens stored in localStorage, which can expose to XSS attacks; using httpOnly cookies is recommended for better security.
 
-UI responsiveness and accessibility can be enhanced.
+### General
+- Error handling and user feedback need enhancement across features.
+- The share feature is basic and could benefit from improved privacy and control.
 
-Backend Issues
+---
 
-No rate limiting, causing possible overload risk.
+## Setup Instructions
 
-JWT token stored in localStorage (vulnerable to XSS), recommend httpOnly cookie usage.
+1. Clone the frontend repository:  
+   ```
+   git clone <your-frontend-repo-url>
+   cd frontend
+   ```
 
-General
+2. Install dependencies:  
+   ```
+   npm install
+   ```  
+   or  
+   ```
+   yarn install
+   ```
 
-Limited error handling and user feedback across flows.
+3. Configure environment variables as needed (e.g., backend API URL).
 
-Share feature basic with scope for privacy improvements.
+4. Start the development server:  
+   ```
+   npm run dev
+   ```  
+   or  
+   ```
+   yarn dev
+   ```
 
-Setup Instructions
-Clone the repo:
-git clone <repo-url>
-cd frontend
+5. Open your browser and navigate to `http://localhost:5173`.
 
-Install dependencies:
-npm install or yarn install
+**Note:** Make sure the backend server is running and accessible.
 
-Configure env variables (e.g., backend URL).
+---
 
-Run frontend:
-npm run dev or yarn dev
+## Contributing
 
-Access at http://localhost:5173
+Contributions are welcome! Please fork the repository and create a pull request or open issues for suggestions and bugs.
 
-Note: Launch backend server for API support.
+---
+
+This README provides a thorough overview of your project, visually illustrates key flows, highlights limitations, and guides users and developers on setup and contributions.
+
+If you want help generating the actual README file with embedded screenshots or more details, feel free to ask!
+```
