@@ -66,9 +66,9 @@ The backend API repository can be found here:
 ### General
 - Error handling and user feedback need enhancement across features.
 - The share feature is basic and could benefit from improved privacy and control.
-- Used 384-dimensional embeddings for performance and efficiency, though this offers less semantic detail than higher-dimensional (e.g., 1536) vectors.
-- Chose a lightweight embedding model for faster responses and lower resource use, at the cost of some accuracy for complex queries.
-- Only titles (youtube + tutle given by user) are embedded - adding youtube videors descriptions and adopting more robust models could further improve search quality, but were omitted for efficiency and input size concerns.
+- Used 384-dimensional embeddings (all-MiniLM-L6-v2) for fast inference and efficiency, though this provides less semantic depth than large models like mpnet-base-v2 (768 dimensions) or OpenAI’s text-embedding-ada-002 (1536 dimensions).
+- Selected a lightweight model for speed and low resource use, accepting a trade-off with some reduction in complex-query accuracy.
+- Embedded only titles (YouTube title + user title) which is efficient but limits context. Will add the YouTube videos description too , Even if long descriptions are included, the model has a token limit, so only the first part (e.g., first 256–512 tokens) is embedded, which is still more informative than no description at all. Using models with higher token limits (like ada-002, up to 8192 tokens) lets us embed more context and gives better search results
 
 ---
 
