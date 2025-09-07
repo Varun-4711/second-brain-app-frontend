@@ -64,6 +64,7 @@ The backend API repository can be found here:
 ### General
 - Error handling and user feedback need enhancement across features.
 - The share feature is basic and could benefit from improved privacy and control.
+- Query search or filter based on tag not implemented while viewing a shareable link (brain) of other person as of now.
 
 ---
 
