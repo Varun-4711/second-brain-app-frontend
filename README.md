@@ -98,9 +98,3 @@ The backend API repository can be found here:
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request or open issues for suggestions and bugs.
-
----
-
