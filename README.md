@@ -1,4 +1,4 @@
-# 2nd Brain Frontend
+# Free SPace : 2nd Brain App Frontend
 Second Brain is a smart personal knowledge website that helps users save, organize, and semantically search diverse online content like YouTube videos, tweets, documents, and links. Built with a backend-first approach, this app leverages AI-powered embeddings and vector similarity search for context-aware discovery beyond simple keyword matches. Find the backend repo below 👇🏼.
 
 <img width="1919" height="926" alt="image_2025-09-07_11-12-47" src="https://github.com/user-attachments/assets/6f18bde7-1cee-4d02-b2af-2e7aeb2cdb60" />
