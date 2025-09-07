@@ -22,7 +22,7 @@ The backend API repository can be found here:
 
 
 - **Fetched Content Display**  
-  Paginated, tag-filtered, and semantic search result display.
+  Paginated, tag-filtered, and semantic search result display.\
   The title provided by the user for the added content is displayed as clickable text. This title acts as a hyperlink (anchor tag) that points to the actual YouTube video URL or content link. When users click the title, they are redirected to the original video or link in a new browser tab, allowing easy access to the source directly from the app interface.
   <img width="1919" height="926" alt="image_2025-09-07_11-12-47" src="https://github.com/user-attachments/assets/ac18379d-e4f6-4ec8-87bf-fc380d8037bf" />
 
