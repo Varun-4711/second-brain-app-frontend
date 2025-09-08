@@ -67,7 +67,7 @@ const AddContentModal = ({
         ×
       </button>
       <h2 className="text-lg font-semibold mb-4">Add Your Content</h2>
-      <form onSubmit={handleSubmit} className="flex flex-col gap-3">
+      <form onSubmit={handleSubmit} autoComplete="off" className="flex flex-col gap-3">
         <input
           name="title"
           type="text"
