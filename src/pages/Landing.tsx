@@ -15,10 +15,10 @@ const Landing = () => {
           Signup
         </Link>
         <Link
-          to="/signin"
+          to="/login"
           className="px-8 py-3 rounded-lg bg-gray-700 hover:bg-gray-600 transition-colors text-white font-semibold shadow-md"
         >
-          Signin
+          Login
         </Link>
       </div>
     </div>

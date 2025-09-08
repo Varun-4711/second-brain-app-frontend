@@ -44,7 +44,7 @@ const Login = () => {
     <div className="min-h-screen flex items-center justify-center bg-gray-900">
       <div className="signin-container bg-[#1e1e2e] p-8 rounded-lg shadow-xl max-w-md w-full">
         <h2 className="text-center text-[#80d8ff] mb-5 text-2xl font-extrabold drop-shadow-lg">Login</h2>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} autoComplete="off">
           <label htmlFor="username" className="block text-md mb-2 text-[#cfd8dc] focus:outline-none focus:ring-2 focus:ring-[#80d8ff] focus:bg-[#263238]">
             Username
           </label>

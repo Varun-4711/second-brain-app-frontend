@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/signup" element={<Signup />} />
-        <Route path="/signin" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         <Route path="/main" element={<MainPage />} />
         <Route path="/shared-brain/:userId" element={<SharedBrainPage />} />
       </Routes>
