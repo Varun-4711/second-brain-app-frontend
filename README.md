@@ -1,4 +1,4 @@
-# 2nd Brain Frontend
+# Free Space : 2nd Brain App Frontend
 Second Brain is a smart personal knowledge website that helps users save, organize, and semantically search diverse online content like YouTube videos, tweets, documents, and links. Built with a backend-first approach, this app leverages AI-powered embeddings and vector similarity search for context-aware discovery beyond simple keyword matches. Find the backend repo below 👇🏼.
 
 <img width="1919" height="926" alt="image_2025-09-07_11-12-47" src="https://github.com/user-attachments/assets/6f18bde7-1cee-4d02-b2af-2e7aeb2cdb60" />
@@ -60,11 +60,15 @@ The backend API repository can be found here:
 ### Backend Issues
 - No rate limiting implemented; potential risk of overloading APIs.
 - JWT tokens stored in localStorage, which can expose to XSS attacks; using httpOnly cookies is recommended for better security.
+- Query search or filter based on tag not implemented while viewing a shareable link (brain) of other person as of now.
 
+  
 ### General
 - Error handling and user feedback need enhancement across features.
 - The share feature is basic and could benefit from improved privacy and control.
-- Query search or filter based on tag not implemented while viewing a shareable link (brain) of other person as of now.
+- Used 384-dimensional embeddings (all-MiniLM-L6-v2) for fast inference and efficiency, though this provides less semantic depth than large models like mpnet-base-v2 (768 dimensions) or OpenAI’s text-embedding-ada-002 (1536 dimensions).
+- Selected a lightweight model for speed and low resource use, accepting a trade-off with some reduction in complex-query accuracy.
+- Embedded only titles (YouTube title + user title) which is efficient but limits context. Will add the YouTube videos description too , Even if long descriptions are included, the model has a token limit, so only the first part (e.g., first 256–512 tokens) is embedded, which is still more informative than no description at all. Using models with higher token limits (like ada-002, up to 8192 tokens) lets us embed more context and gives better search results
 
 ---
 
