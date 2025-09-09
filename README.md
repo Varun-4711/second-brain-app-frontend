@@ -10,8 +10,9 @@ Second Brain is a smart personal knowledge website that helps users save, organi
 
 ## Features & Screenshots
 
-- **Landing Page**  
- <img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/5344110f-fbca-4852-b9ff-6cb6316b55cc" />
+- **Landing Page**
+  <img width="1919" height="928" alt="image" src="https://github.com/user-attachments/assets/c02abd84-1e23-4f3f-aa96-0a760a2aa006" />
+
 
 
 
