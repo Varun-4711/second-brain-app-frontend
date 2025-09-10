@@ -60,6 +60,7 @@ Second Brain is a smart personal knowledge website that helps users save, organi
 ### Backend Issues
 - No rate limiting implemented; potential risk of overloading APIs.
 - JWT tokens stored in localStorage, which can expose to XSS attacks; using httpOnly cookies is recommended for better security.
+- No caching layer (e.g., Redis) implemented yet, so repeated requests may result in redundant database or API queries; introducing caching would improve performance and scalability.
 - Query search or filter based on tag not implemented while viewing a shareable link (brain) of other person as of now.
 
   
